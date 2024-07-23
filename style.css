@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 body{
     margin:0;
     padding:0;
@@ -674,4 +674,114 @@ ul h3 {
     font-size: 16px;
 }
 
->>>>>>> 6a1f855b1e406c4542cead717012ea906fa96a3b
+@media only screen and (max-width: 600px) {
+    header{
+        justify-content: space-evenly;
+    }
+    .navbar1{
+        display: none;
+    }
+    .logo{
+        width: 50%;
+        justify-content: left;
+        padding-left: 31px;
+    }
+    .mob-menu {
+        display: block !important;
+    }
+    .sec1 {padding-top: 70px;}
+    .sec1 img{
+        width: 60%;
+    }
+    .sec2 img{
+    width: 75%;
+    
+    }
+    button.btn-2 {
+        padding: 8px 30px;
+        font-size: 18px;
+    }
+    
+    button.btn-1 {
+        padding: 8px 21px;
+        font-size: 18px;
+    }
+    .nav-buttons {
+        width: 50%;
+        justify-content: right;
+    }
+    .sec3 p {
+        width: 90%;
+        text-align: center;
+    }
+    .sec3 img {
+        width: 100%;
+    }
+    .sec4 {
+        display: flex;
+        flex-direction: column;
+    }
+    .promo1{
+        width:100%;
+        height: 700px;
+    }
+    .promo2{
+        background-position: -329px 41px;
+        width: 100%;
+        height: 510px;
+    }
+    .promo3{
+        width:100%;
+        height: 750px;
+    }
+    .promo4{
+        width:100%;
+        height: 700px;
+    }
+    .promo5{
+        width:100%;
+        height: 550px;
+    }
+    .promo6{
+        background-position: -369px 51px;
+        width: 100%;
+        height: 680px;
+    }
+    .promo7{
+        width:100%;
+        height: 700px;
+    }
+    .promo8{
+        width:100%;
+        height: 700px;
+    }
+
+    .promo5 p, .promo6 p {
+        margin-bottom: 0px;
+        width: 80%;
+        text-align: center;
+        font-size: 18px;
+    }
+    .sec5 {
+        width: 100%;
+        padding: 26px 22px;
+        color: rgb(124, 124, 124);
+    }
+    .mainFooter {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    
+    .div1, .div2, .div3, .div4  {
+        width: 50%;
+    }
+    
+    .div5 {
+        width: 100%;
+    }
+    .footer-content {
+        margin-left: 10px;
+        
+    }
+}
