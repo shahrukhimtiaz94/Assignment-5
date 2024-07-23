@@ -1,0 +1,677 @@
+<<<<<<< HEAD
+body{
+    margin:0;
+    padding:0;
+    width: 100vw;
+    overflow-x: hidden;
+}
+/* .container{
+    background:red;
+} */
+
+header{
+    width: 100vw;
+    display: flex;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 6px 0px #00000008;
+    position: fixed;
+    background: #fffffff2;
+}
+.logo{
+    width: 10%;
+    font-size: 30px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+.navbar1 {
+    width: 75%;
+}
+
+.navbar1 ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    flex-wrap: wrap;
+    margin:0px !important;
+}
+.navbar1 li {
+    font-family: Helvetica,Arial;
+    font-size: 16px;
+}
+.navbar1 a{
+    color:black;
+    text-decoration: none;
+
+}
+
+.nav-buttons{
+    width: 15%;
+    font-size: 20px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-left: 40px;
+}
+
+i.fa-solid {
+    display: flex;
+    padding: 0 10px;
+}
+.mob-menu {
+    display: none !important;
+}
+
+.sec1{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F5F5F7;
+    padding:41px 0px;
+    
+}
+.sec1 img{
+    width:40%;
+}
+.btn-2{
+    border: 1px solid #0077ED;
+    border-radius: 53px;
+    padding: 13px 42px;
+    font-size: 21px;
+    color: #0077ED;
+    margin-top: 30px;
+    background: #ff000000;
+    
+}
+button:hover{
+    background:#0077ED;
+    color :white;
+}
+
+.sec2{
+    display: flex;
+    flex-direction: column;
+    background-color: #F5F5F7;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    margin-top:20px;
+    padding-top:50px;
+}
+h1{
+    font-size: 56px;
+    line-height: 1.07143;
+    font-weight: 600;
+    letter-spacing: -.005em;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+p{
+    /* font-size: 30px; */
+    line-height: 1.14286;
+    font-weight: 400;
+    letter-spacing: .007em;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    margin-top: -34px;
+    font-size: 21px;
+}
+
+.sec3{
+    display: flex;
+    flex-direction: column;
+    background-color: #000000;
+    width: 100vw;
+    padding-top:50px;
+    justify-content: center;
+    align-items: center;
+    color:white;
+}
+
+.sec3 p{
+    width: 30%;
+    text-align: center;
+}
+
+
+.btn-1{
+    background-color: #0077ED;
+    color: white;
+    border-color: #0077ED;
+    margin-right: 15px;
+    padding: 13px 42px;
+    font-size: 20px;
+    border-radius: 62px;
+
+}
+
+.sec3 img{
+    width:60%;
+}
+
+
+.sec4{
+    display: flex;
+    width: 100%;
+    color: white;
+    text-align: center;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+    margin-top: 12px;
+ 
+}
+.promo1{
+    background-image: url(assets/promo1.jpg);
+    background-size: cover;
+    background-position: bottom center;
+    width: 49%;
+    height: 800px;
+    margin-bottom: 15px;
+    padding-top: 64px;
+}
+
+.promo-btn .btn-1 {
+    background-color: #ffffff;
+    margin-right: 15px;
+    color: black;
+    border-color: #ffffff;
+}
+
+.promo-btn button{
+    border: 1px solid #ffffff;
+    border-radius: 53px;
+    padding: 15px 35px;
+    font-size: 21px;
+    color: white;
+    margin-top: 30px;
+    background:rgba(255, 255, 255, 0);
+}
+.promo-btn button:hover{
+    background:#ffffff;
+    color :rgb(0, 0, 0);
+}
+
+.promo2{
+    background-image: url(assets/promo2.jpg);
+    background-size: cover;
+    background-position: bottom center;
+    width: 49%;
+    height: 800px;
+    color:black;
+    padding-top: 64px;
+}
+
+.sub-heading {
+    color: gray;
+    font-size: 21px;
+    margin-top: -18px;
+}
+
+.promo3{
+    background-image: url(assets/promo3.jpg);
+    background-size: cover;
+    background-position: bottom center;
+    width: 49%;
+    height: 800px;
+    margin-bottom: 15px;
+    padding-top: 64px;
+}
+
+.promo4{
+    background-image: url(assets/promo4.jpg);
+    background-size: cover;
+    background-position: bottom center;
+    width: 49%;
+    height: 800px;
+    margin-bottom: 15px;
+}
+
+.promo-logo {
+    margin-top: 40px;
+    margin-bottom: 42px;
+}
+
+.promo5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(assets/promo5.jpg);
+    background-size: cover;
+    background-position: bottom center;
+    width: 49%;
+    height: 800px;
+    margin-bottom: 15px;
+    color: black;
+}
+.promo6{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(assets/promo6.jpg);
+    background-size: cover;
+    background-position: bottom center;
+    width: 49%;
+    height: 800px;
+    margin-bottom: 15px;
+    color: black;
+}
+.promo5 p , .promo6 p{
+    margin-bottom:0px;
+    width: 50%;
+    text-align: center;
+    font-size: 21px;
+}
+
+.carousel-sec{
+    width: 100%;
+}
+
+.sec5{
+    width: 100%;
+    padding: 51px 122px;
+    color: rgb(124, 124, 124);
+}
+.sec5 p{
+    font-size:14px;
+    line-height: 1.5;
+}
+.sec5 a{
+    color:black;
+}
+
+.mainFooter {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border-top:1px #0000001a solid;
+    padding:22px 0px;
+    
+}
+
+ul {
+    list-style: none;
+}
+
+ul li a {
+    color: #000000ad;
+    text-decoration: none;
+    font-size: 1em;
+    font-family: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+    letter-spacing: inherit;
+    text-align: inherit;
+}
+
+ul li {
+    padding: 6px 1px;
+}
+
+ul h3 {
+    font-size: 15px;
+    line-height: 1.3333733333;
+    font-weight: 400;
+    letter-spacing: -0.01em;
+    font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-weight: 600;
+    margin-bottom: .8em;
+    margin-inline-end: 20px;
+    outline: none;
+    color: #000000e0;
+}
+
+.footer-content {
+    
+    margin-left:138px;
+    border-bottom:1px #0000001a solid;
+}    
+.footer-content p {
+    width: 100%;
+    font-size: 16px;
+}
+
+=======
+body{
+    margin:0;
+    padding:0;
+    width: 100vw;
+    overflow-x: hidden;
+}
+/* .container{
+    background:red;
+} */
+
+header{
+    width: 100vw;
+    display: flex;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 6px 0px #00000008;
+    position: fixed;
+    background: #fffffff2;
+}
+.logo{
+    width: 10%;
+    font-size: 30px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+.navbar1 {
+    width: 75%;
+}
+
+.navbar1 ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    flex-wrap: wrap;
+    margin:0px !important;
+}
+.navbar1 li {
+    font-family: Helvetica,Arial;
+    font-size: 16px;
+}
+.navbar1 a{
+    color:black;
+    text-decoration: none;
+
+}
+
+.nav-buttons{
+    width: 15%;
+    font-size: 20px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-left: 40px;
+}
+
+i.fa-solid {
+    display: flex;
+    padding: 0 10px;
+}
+.mob-menu {
+    display: none !important;
+}
+
+.sec1{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F5F5F7;
+    padding:41px 0px;
+    
+}
+.sec1 img{
+    width:40%;
+}
+.btn-2{
+    border: 1px solid #0077ED;
+    border-radius: 53px;
+    padding: 13px 42px;
+    font-size: 21px;
+    color: #0077ED;
+    margin-top: 30px;
+    background: #ff000000;
+    
+}
+button:hover{
+    background:#0077ED;
+    color :white;
+}
+
+.sec2{
+    display: flex;
+    flex-direction: column;
+    background-color: #F5F5F7;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    margin-top:20px;
+    padding-top:50px;
+}
+h1{
+    font-size: 56px;
+    line-height: 1.07143;
+    font-weight: 600;
+    letter-spacing: -.005em;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+p{
+    /* font-size: 30px; */
+    line-height: 1.14286;
+    font-weight: 400;
+    letter-spacing: .007em;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    margin-top: -34px;
+    font-size: 21px;
+}
+
+.sec3{
+    display: flex;
+    flex-direction: column;
+    background-color: #000000;
+    width: 100vw;
+    padding-top:50px;
+    justify-content: center;
+    align-items: center;
+    color:white;
+}
+
+.sec3 p{
+    width: 30%;
+    text-align: center;
+}
+
+
+.btn-1{
+    background-color: #0077ED;
+    color: white;
+    border-color: #0077ED;
+    margin-right: 15px;
+    padding: 13px 42px;
+    font-size: 20px;
+    border-radius: 62px;
+
+}
+
+.sec3 img{
+    width:60%;
+}
+
+
+.sec4{
+    display: flex;
+    width: 100%;
+    color: white;
+    text-align: center;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+    margin-top: 12px;
+ 
+}
+.promo1{
+    background-image: url(assets/promo1.jpg);
+    background-size: cover;
+    background-position: bottom center;
+    width: 49%;
+    height: 800px;
+    margin-bottom: 15px;
+    padding-top: 64px;
+}
+
+.promo-btn .btn-1 {
+    background-color: #ffffff;
+    margin-right: 15px;
+    color: black;
+    border-color: #ffffff;
+}
+
+.promo-btn button{
+    border: 1px solid #ffffff;
+    border-radius: 53px;
+    padding: 15px 35px;
+    font-size: 21px;
+    color: white;
+    margin-top: 30px;
+    background:rgba(255, 255, 255, 0);
+}
+.promo-btn button:hover{
+    background:#ffffff;
+    color :rgb(0, 0, 0);
+}
+
+.promo2{
+    background-image: url(assets/promo2.jpg);
+    background-size: cover;
+    background-position: bottom center;
+    width: 49%;
+    height: 800px;
+    color:black;
+    padding-top: 64px;
+}
+
+.sub-heading {
+    color: gray;
+    font-size: 21px;
+    margin-top: -18px;
+}
+
+.promo3{
+    background-image: url(assets/promo3.jpg);
+    background-size: cover;
+    background-position: bottom center;
+    width: 49%;
+    height: 800px;
+    margin-bottom: 15px;
+    padding-top: 64px;
+}
+
+.promo4{
+    background-image: url(assets/promo4.jpg);
+    background-size: cover;
+    background-position: bottom center;
+    width: 49%;
+    height: 800px;
+    margin-bottom: 15px;
+}
+
+.promo-logo {
+    margin-top: 40px;
+    margin-bottom: 42px;
+}
+
+.promo5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(assets/promo5.jpg);
+    background-size: cover;
+    background-position: bottom center;
+    width: 49%;
+    height: 800px;
+    margin-bottom: 15px;
+    color: black;
+}
+.promo6{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(assets/promo6.jpg);
+    background-size: cover;
+    background-position: bottom center;
+    width: 49%;
+    height: 800px;
+    margin-bottom: 15px;
+    color: black;
+}
+.promo5 p , .promo6 p{
+    margin-bottom:0px;
+    width: 50%;
+    text-align: center;
+    font-size: 21px;
+}
+
+.carousel-sec{
+    width: 100%;
+}
+
+.sec5{
+    width: 100%;
+    padding: 51px 122px;
+    color: rgb(124, 124, 124);
+}
+.sec5 p{
+    font-size:14px;
+    line-height: 1.5;
+}
+.sec5 a{
+    color:black;
+}
+
+.mainFooter {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border-top:1px #0000001a solid;
+    padding:22px 0px;
+    
+}
+
+ul {
+    list-style: none;
+}
+
+ul li a {
+    color: #000000ad;
+    text-decoration: none;
+    font-size: 1em;
+    font-family: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+    letter-spacing: inherit;
+    text-align: inherit;
+}
+
+ul li {
+    padding: 6px 1px;
+}
+
+ul h3 {
+    font-size: 15px;
+    line-height: 1.3333733333;
+    font-weight: 400;
+    letter-spacing: -0.01em;
+    font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-weight: 600;
+    margin-bottom: .8em;
+    margin-inline-end: 20px;
+    outline: none;
+    color: #000000e0;
+}
+
+.footer-content {
+    
+    margin-left:138px;
+    border-bottom:1px #0000001a solid;
+}    
+.footer-content p {
+    width: 100%;
+    font-size: 16px;
+}
+
+>>>>>>> 6a1f855b1e406c4542cead717012ea906fa96a3b
