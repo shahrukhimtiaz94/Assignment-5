@@ -673,6 +673,22 @@ ul h3 {
     width: 100%;
     font-size: 16px;
 }
+@media only screen and (max-width: 833px) {
+ header{
+        justify-content: space-evenly;
+    }
+    .navbar1{
+        display: none;
+    }
+    .logo{
+        width: 50%;
+        justify-content: left;
+        padding-left: 31px;
+    }
+    .mob-menu {
+        display: block !important;
+    }
+}
 
 @media only screen and (max-width: 600px) {
     header{
